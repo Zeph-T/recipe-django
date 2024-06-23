@@ -3,7 +3,7 @@
 - This Django REST API project allows users to interact with recipes and manage their profiles. The project includes user authentication, user profile management, recipe creation, and bookmark functionality.
 - The coverage report is generated and saved in the `coverage.txt` file at the root level.
 - This app also comes with a celery beat configuration that emails all the authors about the likes received in their recipes every day. You can find the app under `mailerapp` folder.
-- The app is deployed in a EC2 Instance at `http://ec2-3-85-102-94.compute-1.amazonaws.com`
+- The app is deployed in an EC2 Instance at `http://ec2-3-85-102-94.compute-1.amazonaws.com`
 
 ## Installation
 
