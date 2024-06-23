@@ -11,7 +11,7 @@ services:
       - "80:8000"
     environment:
       - DEBUG=1
-      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1
+      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 http://ec2-3-85-102-94.compute-1.amazonaws.com/
       - CELERY_BROKER=redis://redis:6379/0
       - CELERY_BACKEND=redis://redis:6379/0
     depends_on:
