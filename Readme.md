@@ -23,7 +23,7 @@
 
 5. The API should now be accessible at `http://localhost:80/`.
 
-## Endpoints
+## Some Endpoints
 
 - User Registration: `POST /api/user/register/`
 - User Login: `POST /api/user/login/`
