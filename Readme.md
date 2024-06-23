@@ -9,8 +9,8 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Zeph-T/recipe-api.git
-    cd recipe-api
+    git clone https://github.com/Zeph-T/recipe-django.git
+    cd recipe-django
     ```
 
 2. Create a `.env` file in the root directory and add the necessary environment variables.
