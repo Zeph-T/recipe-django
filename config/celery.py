@@ -19,7 +19,7 @@ app.config_from_object(settings,namespace='CELERY')
 app.conf.beat_schedule = {
     'daily-email-notification' : {
         'task' : 'mailerapp.tasks.retrieve_author_likes_and_send_email',
-        'schedule' : crontab(hour=17,minute=27),
+        'schedule' : crontab(hour=int(os.environ.get('CELERY_BEAT_CRON_HOUR','8')),minute=int(os.environ.get('CELERY_BEAT_CRON_MINUTES' , '0'))),
     }
 }
 
