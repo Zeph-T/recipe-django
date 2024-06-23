@@ -1,7 +1,7 @@
 # Recipe API Documentation
 
-This is a Django REST API project that allows users to interact with recipes and manage their profiles. The project includes user authentication, user profile management, recipe creation, and bookmark functionality.
-The coverage report is generated and saved it in coverage.txt file in the root level
+This Django REST API project allows users to interact with recipes and manage their profiles. The project includes user authentication, user profile management, recipe creation, and bookmark functionality.
+The coverage report is generated and saved in the `coverage.txt` file at the root level
 
 ## Installation
 
