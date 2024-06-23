@@ -1,6 +1,11 @@
 # Recipe API Documentation
 
-- This Django REST API project allows users to interact with recipes and manage their profiles. The project includes user authentication, user profile management, recipe creation, and bookmark functionality.
+- This Django REST API project allows users to interact with recipes and manage their profiles. The project includes user authentication, user profile management, recipe creation, and bookmark functionality. The database used is `AWS RDS`.
+- The Docker compose has four services
+    1. Recipe Backend
+    2. Redis - Message Broker
+    3. Celery Worker - To Send Daily Notifications
+    4. Celery Beat - To Schedule Daily Notifications
 - The coverage report is generated and saved in the `coverage.txt` file at the root level.
 - This app also comes with a celery beat configuration that emails all the authors about the likes received in their recipes every day. You can find the app under `mailerapp` folder.
 - The app is deployed in an EC2 Instance at `http://ec2-3-85-102-94.compute-1.amazonaws.com`
